@@ -292,6 +292,11 @@ img {
   #wrapper #footer .line > ul {
     margin: 10px 0;
   }
+
+  #wrapper #footer .first_line {
+    margin-bottom: 0px;
+    min-height: 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #wrapper #footer .line .menu_footer > li {
@@ -327,6 +332,11 @@ img {
 
   #footer .line .menu_footer li {
     display: block;
+  }
+
+  #footer {
+    position: static;
+    margin: 10px 0;
   }
 }
 @media only screen and (max-width: 345px) {
